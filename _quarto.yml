@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Lauren Van Blarcum"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: CV.qmd 
+        text: CV
+      - Class Assignments.qmd
+      - menu: 
+        - Assignment 1.qmd
+        - Assignment 2.qmd
+        - Assignment 3.qmd
+        - Assignment 4.qmd
+        - Assignment 5.qmd
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    
+editor: visual
