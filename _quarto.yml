@@ -9,7 +9,7 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: CV.qmd 
+      - href: CV.pdf
         text: CV
       - Class Assignments.qmd
       - menu: 
