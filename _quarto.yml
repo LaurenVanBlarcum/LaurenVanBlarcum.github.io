@@ -2,27 +2,18 @@ project:
   type: website
 
 website:
-  title: "Lauren Van Blarcum"
+  title: "Blog"
+  description: "This is Lauren Van Blarcum personal Blog."
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
-      - href: CV.pdf
-        text: CV
-      - Class Assignments.qmd
-      - menu: 
-        - Assignment 1.qmd
-        - Assignment 2.qmd
-        - Assignment 3.qmd
-        - Assignment 4.qmd
-        - Assignment 5.qmd
-
+    right:
+      - text: Blog
+        href: blog.qmd 
+      - icon: github
+        href: https://laurenvanblarcum.github.io/
 format:
   html:
     theme: flatly
     css: styles.css
-    toc: true
-    
+
 editor: visual
+
