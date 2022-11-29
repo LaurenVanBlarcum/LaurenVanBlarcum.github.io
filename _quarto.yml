@@ -20,6 +20,14 @@ website:
         - Assignment 3.qmd
         - Assignment 4.qmd
         - Assignment 5.qmd
+        - Assignment 6.qmd
+        - Assignment 7.qmd
+        - Assignment 8.qmd
+        - Assignment 9.qmd
+        - Assignment 10.qmd
+        
+      - href: https://laurenvanblarcum.shinyapps.io/laurenvanblarcum/  
+        text: Shiny
 format:
   html:
     theme: flatly
